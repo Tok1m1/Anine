@@ -1,0 +1,63 @@
+.Bilimg1 {
+    /* animation: fr1; */
+    animation: bg1 0.5s 0s  infinite;
+    position: absolute;
+
+}
+
+.Bilimg2 {
+    /* animation: fr2; */
+    animation: bg2 1s 0.49s infinite;
+    position: absolute;
+}
+
+.Bilimg3 {
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: fr3; */
+    animation: bg3 1s 0.98s infinite;
+    position: absolute;
+}
+.NS{
+    display:none;
+}
+@keyframes bg1 {
+    from {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bg2 {
+    from {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bg3 {
+    from {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
