@@ -7,14 +7,14 @@
 
 .Bilimg2 {
     /* animation: fr2; */
-    animation: bg2 1s 0.49s infinite;
+    animation: bg2 0.5s 0.49s infinite;
     position: absolute;
 }
 
 .Bilimg3 {
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     /* animation: fr3; */
-    animation: bg3 1s 0.98s infinite;
+    animation: bg3 0.5s 0.98s infinite;
     position: absolute;
 }
 .NS{
