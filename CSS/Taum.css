@@ -1,63 +1,283 @@
+.an1 {
+    position: absolute;
+}
+
 .Bilimg1 {
     /* animation: fr1; */
-    animation: bg1 0.5s 0s  infinite;
+    animation: bg1 2s infinite;
     position: absolute;
 
 }
 
 .Bilimg2 {
     /* animation: fr2; */
-    animation: bg2 0.5s 0.49s infinite;
+    animation: bg2 2s infinite;
     position: absolute;
 }
 
 .Bilimg3 {
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     /* animation: fr3; */
-    animation: bg3 0.5s 0.98s infinite;
+    animation: bg3 2s infinite;
     position: absolute;
 }
-.NS{
-    display:none;
+
+.Bilimg4 {
+    animation: bg4 2s infinite;
+    position: absolute;
 }
+
+.Bilimg5 {
+    animation: bg5 2s infinite;
+    position: absolute;
+}
+
+.Bilimg6 {
+    animation: bg6 2s infinite;
+    position: absolute;
+}
+
+.Bilimg7 {
+    animation: bg7 2s infinite;
+    position: absolute;
+}
+
+.Bilimg8 {
+    animation: bg8 2s infinite;
+    position: absolute;
+}
+
+.Bilimg9 {
+    animation: bg9 2s infinite;
+    position: absolute;
+}
+
+.Bilimg10 {
+    animation: bg10 2s infinite;
+    position: absolute;
+    
+}
+
+.Bilimg11 {
+    animation: bg11 2s infinite;
+    position: absolute;
+}
+
+.Bilimg12 {
+    animation: bg12 2s infinite;
+    position: absolute;
+}
+
+.Bilimg13 {
+    animation: bg13 2s infinite;
+    position: absolute;
+}
+
+.Bilimg14 {
+    animation: bg14 2s infinite;
+    position: absolute;
+}
+
+
 @keyframes bg1 {
     from {
         opacity: 1;
     }
 
-    99% {
-        opacity: 0.2;
+    7.14% {
+        opacity: 0;
     }
 
     to {
-        opacity: 1;
+        opacity: 0;
     }
 }
 
 @keyframes bg2 {
-    from {
+    7.15% {
+        opacity: 0;
+    }
+
+    14.28% {
         opacity: 1;
     }
 
-    99% {
-        opacity: 0.2;
-    }
-
-    to {
-        opacity: 1;
+    21.43% {
+        opacity: 0;
     }
 }
 
 @keyframes bg3 {
-    from {
+    14.28% {
+        opacity: 0;
+    }
+
+    21.43% {
         opacity: 1;
     }
 
-    99% {
-        opacity: 0.2;
+
+    28.5% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg4 {
+    21.43% {
+        opacity: 0;
     }
 
-    to {
+
+    28.57% {
+        opacity: 1;
+    }
+
+    35.71% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg5 {
+
+
+    28.57% {
+        opacity: 0;
+    }
+
+    35.71% {
+        opacity: 1;
+    }
+
+    42.86% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg6 {
+
+
+    35.71% {
+        opacity: 0;
+    }
+
+    42.86% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+
+}
+
+@keyframes bg7 {
+    42.86% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    57.14% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes bg8 {
+    50% {
+        opacity: 0;
+    }
+
+    57.14% {
+        opacity: 1;
+    }
+
+    64.28% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes bg9 {
+    57.14% {
+        opacity: 0;
+    }
+
+    64.28% {
+        opacity: 1;
+    }
+
+    71.43% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg10 {
+    64.28% {
+        opacity: 0;
+    }
+
+    71.43% {
+        opacity: 1;
+    }
+
+    78.57% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg11 {
+    71.43% {
+        opacity: 0;
+    }
+
+    78.57% {
+        opacity: 1;
+    }
+
+    85.71% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg12 {
+
+    78.57% {
+        opacity: 0;
+    }
+
+    85.71% {
+        opacity: 1;
+    }
+
+    92.8% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg13 {
+    85.71% {
+        opacity: 0;
+    }
+
+    92.8% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes bg14 {
+    92.8% {
+        opacity: 0;
+    }
+
+    100% {
         opacity: 1;
     }
 }

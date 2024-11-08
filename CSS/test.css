@@ -1,0 +1,37 @@
+.Bilimg1 {
+    /* animation: fr1; */
+    animation: bg1 3s  infinite;
+    /* position: absolute; */
+
+}
+
+.Bilimg2 {
+    /* animation: fr2; */
+    animation: bg2 3s  infinite;
+    /* position: absolute; */
+}
+
+@keyframes bg1 {
+    from {
+        opacity: 1;
+    }
+
+    7.14% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes bg2 {
+    7.15% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 1;
+    }
+
+    21.43% {
+        opacity: 0;
+    }
+}
