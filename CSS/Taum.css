@@ -710,7 +710,29 @@
 }
 
 
- input[type="checkbox"]{
-    animation: fool 
+ input[type="checkbox"]:not{
+    width: 300px; /* короче оно суперневидимое, оно определяет ширину, а не сам размер, размер - определяет высота*/
+    height: 300px;
+    animation: fool 5s;
     /* outline: -20px solid deeppink; */
 }
+input[type="checkbox"]:checked{
+animation: check 3s;
+
+}
+@keyframes check {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes fool {
+    0% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
