@@ -512,36 +512,41 @@ body {
 }
 
 @keyframes standup {
-    0%{
-        opacity:0;
+    0% {
+        opacity: 0;
 
     }
-    40%{
-        opacity:0;
+
+    40% {
+        opacity: 0;
     }
-    100%{
-        opacity:0.8;
+
+    100% {
+        opacity: 0.8;
         transform: translateY(-75px);
     }
 }
 
 @keyframes sitdown {
-    0%{
-opacity: 0;
+    0% {
+        opacity: 1;
     }
-    0.000001%{
-        opacity: 0;
-       transform: translateY(-75px);
+
+    0.000001% {
+        opacity: 1;
+        transform: translateY(-75px);
     }
-   0.000002%{
-    opacity: 0.8;
-   }
-    80%{
-        
+
+    0.000002% {
+        opacity: 0.8;
+    }
+
+    80% {
         transform: translateY(-30px);
-        opacity:0;
+        opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
